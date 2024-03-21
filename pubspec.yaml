@@ -1,0 +1,141 @@
+name: fiberchat #changing it will force you to change appname in import statement inside every .dart file.
+description: Chats & Calling app
+
+version: 2.0.14+88
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  # ------------------------
+  pinput: 4.0.0
+  receive_sharing_intent_plus: 1.0.1
+  firebase_messaging: 14.7.15
+  firebase_crashlytics: 3.4.14
+  firebase_auth: 4.17.4
+  cloud_functions: 4.6.5
+  firebase_core: 2.26.0
+  firebase_storage: 11.6.6
+  cloud_firestore: 4.15.4
+
+  any_link_preview: 3.0.1
+  google_translate: 0.0.6
+  wakelock_plus: 1.1.4
+  package_info_plus: 5.0.1
+  giphy_get: 3.5.4
+  device_info_plus: 9.1.2
+  chewie: 1.7.5
+  file_picker: 6.1.1
+  flutter_launcher_plus: 0.0.6
+  extended_image: 8.2.0
+  ffmpeg_kit_flutter: 6.0.3
+  logger: 1.4.0
+  audioplayers: 5.2.1
+  pin_input_text_field: 4.5.1
+  audio_session: 0.1.18
+  flutter_cache_manager: 3.3.1
+  flutter_emoji: 2.5.1
+  agora_rtc_engine: 6.2.6
+  font_awesome_flutter: 10.7.0
+  holding_gesture: 1.2.0
+  geolocator: 10.1.1
+  async: 2.11.0
+  emoji_picker_flutter: 2.0.0
+  group_button: 5.3.4
+  google_mobile_ads: 4.0.0
+  http_auth: 1.0.4
+  path: 1.8.3
+  html: 0.15.4
+  diacritic: 0.1.5
+  image_cropper: 5.0.1
+  flutter_image_compress: 2.1.0
+  path_provider: 2.1.2
+  video_player: 2.8.2
+  crypto: 3.0.3
+  url_launcher: 6.2.4
+  jiffy: 6.2.1
+  permission_handler: 11.2.1
+  flutter_local_notifications: 16.3.2
+  intl: 0.18.1
+  http: 1.1.0
+  shared_preferences: 2.2.2
+  collection: 1.18.0
+  flutter_cached_pdfview: 0.4.2
+  media_info: 0.12.0+2
+  video_editor: 3.0.0
+  connectivity_plus: 5.0.2
+  flutter_linkify: 6.0.0
+  wechat_assets_picker: 9.0.0-dev.2
+  pip_view: 0.9.7
+  scoped_model: 2.0.0
+  rxdart: 0.27.7
+  mime: 1.0.5
+  dropdown_plus: 0.0.9
+  video_compress: 3.1.2
+  flutter_colorpicker: 1.0.3
+  page_transition: 2.1.0
+  provider: 6.1.1
+  percent_indicator: 4.2.3
+  video_thumbnail: 0.5.3
+  overlay_support: 2.1.0
+  launch_review: 3.0.1
+  encrypt: 5.0.1
+  local_auth: 2.1.8
+  string_validator: 1.0.2
+  devicelocale: 0.7.0
+  contacts_service: 0.6.3
+  flutter_secure_storage: 9.0.0
+  oktoast: 3.4.0
+  link_preview_generator: 1.2.0
+  flutter_sound: 9.2.13
+  gallery_saver: 2.3.2
+  file_saver: 0.2.9
+  better_open_file: 3.6.5
+  ntp: 2.0.0
+  random_string: 2.3.1
+  image_editor: 1.3.0
+  circular_countdown_timer: 0.2.3
+  flutter_video_info: 1.3.1
+  share: 2.0.4
+  cupertino_icons: 1.0.6
+  cached_network_image: 3.3.1
+  # ---------- end of direct dependencies --------------
+  camera: 0.10.5+9
+  universal_platform: 1.0.0+1
+  dotted_border: 2.1.0
+  localstorage: 4.0.1+4
+
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.15
+  flutter_driver:
+    sdk: flutter
+  test: ^1.16.8
+dependency_overrides:
+  http: "0.13.4"
+
+  flutter_launcher_icons: ^0.9.0
+flutter_icons:
+  # android: "ic_launcher"
+  ios: true
+  image_path: "assets/appicon/appicon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/flags/
+    - lib/Services/localization/json_languages/
